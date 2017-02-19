@@ -1,0 +1,95 @@
+
+.header{
+	background-color: black;
+	height: 80px;
+	position:fixed;
+	width: 100%;
+	border-radius: 0 0 10px 10px;
+	font-family: Times;
+	color: white;
+	font-size: 12ph;
+	box-sizing: border-box;
+    padding: 25px;
+
+}
+
+.sidebar{
+	margin: 80px 0 0 0;
+	background-color: grey;
+	display:inline-block;
+    float:left;
+	width:30%;
+	display: flex;
+	flex-direction:column;	
+	
+}
+
+.content{
+	background-color: darkgrey;
+	margin: 80px 0 0 0;
+	display:inline-block;
+	width:70%;
+	box-sizing: border-box;
+    padding: 10px;
+}
+
+.footer{
+	background-color: black;
+	position: fixed;
+	bottom:0;
+	left:0;
+	height: 30px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	font-family: Times;
+	color: white;
+	font-size: 12ph;
+	text-align: center;
+	
+}
+
+.wrapper{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-color: gray;
+	width: 100%;
+	max-width:1000px;
+	position: 200px;
+	display: flex;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("78.png");
+	background-color: gray;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper{
+	  flex-direction:column;
+	  justify-content:space-between;
+	  background: #FFF;
+	}
+	.sidebar{
+	  margin: 80px 0 0 0;	
+	  width: 100%;
+	}
+	.content{
+	  margin: 0 0 0 0;
+	  width: 100%;
+	}	
+}
+
+input[type="button"]{
+	margin: 5px 15px 5px 15px;
+}
+	
+	
+
+   
